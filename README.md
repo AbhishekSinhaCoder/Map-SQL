@@ -5,7 +5,8 @@ MapSQL is a simple in-memory database management system for Java.  It  consists 
 •	A shell for interacting with the database engine (this is a command line based interface)
 Overview of Codebase:
 
-### The core components of the database engine can be found in the mapsqI.core package. They are:
+### The core components of the database engine can be found in the mapsqI.core package. 
+# They are:
 
 * SQLManager: This is the "front” of the database system. All operations are carried out by invoking the execute() method which is overridden for SQLStatements and SQLCommands .
 *	SQLStatement: This is the main interface for SQL statements (e.g. CREATE TABLE, SELECT, INSERT, UPDATE, DELETE, DROP TABLE). Implementations of these statement types can be found in the mapsql.sql.statement package (you will be modifying the DropTable class).
