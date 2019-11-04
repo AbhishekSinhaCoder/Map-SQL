@@ -1,8 +1,8 @@
 # Map-SQL
 MapSQL is a simple in-memory database management system for Java.  It  consists  of  two subsystems:
 
-•	The core database engine
-•	A shell for interacting with the database engine (this is a command line based interface)
+*	The core database engine
+*	A shell for interacting with the database engine (this is a command line based interface)
 Overview of Codebase:
 
 ### The core components of the database engine can be found in the mapsqI.core package. 
